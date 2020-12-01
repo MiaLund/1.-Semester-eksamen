@@ -1,0 +1,141 @@
+body{
+  background-color: #white;
+}
+.logo{
+  padding: 10px;
+}
+.section{
+  height: 900px;
+  width: 100%;
+  background-color: #e3eeff;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-family: monospace;
+  font-size: 35px;
+}
+.billede1{
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  width: auto;
+  height: 88px;
+  background-color: black;
+}
+
+@media only screen and (min-width: 0px){
+  .header{
+    height: 88px;
+    width: auto;
+    background-color: black;
+  }
+  .logo{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .topnav {
+    background-color: #707277;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: center;
+    display: flex;
+    flex-direction: column-reverse;
+    color: #FBFBFB;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  .topnav a:hover {
+    background-color: black;
+  }
+  .socialemedier{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    text-decoration: none;
+  }
+}
+
+
+@media only screen and (min-width: 992px){
+  .header{
+    height: 88px;
+    width: auto;
+    background-color: black;
+  }
+  .logo{
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+  }
+  .topnav {
+    background-color: #707277;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    color: #FBFBFB;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  .topnav a:hover {
+    background-color: black;
+  }
+  .socialemedier{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    text-decoration: none;
+  }
+}
+
+
+@media only screen and (min-width: 1200px){
+  .header{
+    height: 88px;
+    width: auto;
+    background-color: black;
+  }
+  .logo{
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+  }
+  .topnav {
+    background-color: #707277;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: right;
+    display: block;
+    color: #FBFBFB;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  .topnav a:hover {
+    background-color: black;
+  }
+  .socialemedier a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-top: 0px;
+  }
+  .socialemedier{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    text-decoration: none;
+  }
+}
